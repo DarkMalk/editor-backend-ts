@@ -1,0 +1,8 @@
+# Folders
+node_modules/
+build/
+
+# Files
+pnpm-lock.yaml
+package-lock.json
+.env
