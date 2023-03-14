@@ -1,0 +1,4 @@
+# Delete Note
+# Example URL: http://localhost:[PORT]/api/v1/notes/:id
+DELETE http://localhost:3000/api/v1/notes/8
+Authorization: Bearer <Example TOKEN>

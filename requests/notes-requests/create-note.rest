@@ -1,0 +1,15 @@
+# Create Note
+# Example URL: http://localhost:[PORT]/api/v1/notes
+POST http://localhost:3000/api/v1/notes HTTP/1.1
+Authorization: Bearer <Example TOKEN>
+Content-Type: application/json
+
+{
+  "title": "New Note",
+  "content": "Content of new note"
+}
+
+# Parameters
+# ------------------
+# title: string
+# content: string

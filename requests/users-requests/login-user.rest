@@ -1,0 +1,14 @@
+# Login user
+# Example URL: http://localhost:[PORT]/api/v1/
+POST http://localhost:3000/api/v1/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "mail@example.com",
+  "password": "example"
+}
+
+# Parameters
+# ----------------
+# email: string
+# password: string

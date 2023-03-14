@@ -1,0 +1,4 @@
+# Get all notes
+# Example URL: http://localhost:[PORT]/api/v1/notes
+GET http://localhost:3000/api/v1/notes
+Authorization: Bearer <Example TOKEN>

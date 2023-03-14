@@ -1,0 +1,15 @@
+# Update Note
+# Example URL: http://localhost:[PORT]/api/v1/notes/:id
+PUT http://localhost:3000/api/v1/notes/9 HTTP/1.1
+Authorization: Bearer <Example TOKEN>
+content-type: application/json
+
+{
+  "title": "Title updated example",
+  "content": "Content of note updated example"
+}
+
+# Parameters
+# ---------------
+# title: string
+# content: string
